@@ -23,7 +23,7 @@ body {
 #lyrics {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(250, 253, 37);
+  color: rgb(255, 255, 255);
   position: absolute;
   margin-bottom: 20%;
   z-index: 1;
