@@ -4,30 +4,31 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Quiero escuchar tu voz , poder abrazarte", time: 17 },
-  { text: "Porque esta noche te entregaré mi corazon  ", time: 22 },
-  { text: "Y al amanecer , poder tocarte  ", time: 27 },
-  { text: "Y darme cuenta que no fue un sueño estar contigo ", time: 32 },
-  { text: "Despierta, que ya salió el Sol, mi amor", time: 57 },
-  { text: "Hoy mi vida ya cambió , tú eres la dueña de mi corazón", time: 61 },
-  { text: "Mi vida, yo te cuidaré toda la vida", time: 65 },
-  { text: "Solamente déjame estar contigo", time: 71 },
-  { text: "Despierta , que ya salió el sol , mi amor ", time: 95 },
-  { text: "Hoy mi vida ya cambió , tu eres la dueña de mi corazón", time: 99 },
-  { text: "Mi vida , yo te cuidaré toda la vida ", time: 105 },
-  { text: "Solamente dejamé estar contigo", time: 109 },
-  { text: "Quiero escuchar tu voz , poder abrazarte", time: 132 },
-  { text: "Porque esta noche te entregaré mi corazon ", time: 138 },
-  { text: "Y al amanecer , poder tocarte", time: 141 },
-  { text: "Y darme cuenta que no fue un sueño estar contigo", time: 148 },
-  { text: "Despierta, que ya salió el Sol, mi amor", time: 172 },
-  { text: "Hoy mi vida ya cambió , tú eres la dueña de mi corazón", time: 176 },
-  { text: "Mi vida, yo te cuidaré toda la vida", time: 181 },
-  { text: "Solamente déjame estar contigo", time: 186 },
-  { text: "Despierta, que ya salió el Sol, mi amor", time: 191 },
-  { text: "Hoy mi vida ya cambió , tú eres la dueña de mi corazón", time: 195 },
-  { text: "Mi vida, yo te cuidaré toda la vida", time: 200 },
-  { text: "Solamente déjame estar contigo", time: 205 },
+  { text: "Un día tan solitario", start: 14, end: 17 },
+  { text: "Y es mío", start: 17 , end : 20},
+  { text: "El día más solitario de mi vida ", start: 21, end: 26 },
+  { text: "Un día tan solitario", start: 27 , end: 29 },
+  { text: "Debería ser prohibido", start: 30 , end: 32 },
+  { text: "Es un día que no puedo soportar", start: 33 , end: 39 },
+  { text: "El día más solitario de mi vida", start: 40 , end: 45 },
+  { text: "El día más solitario de mi vida", start: 46 , end: 51 },
+  { text: "Un día tan solitario ", start: 52, end: 54 },
+  { text: "No debería existir", start: 55 , end: 58 },
+  { text: "Es un día que nunca voy a extrañar", start: 59 , end: 64 },
+  { text: "Un día tan solitario", start: 65 , end: 68 },
+  { text: "Y es mío", start: 68 , end: 71 },
+  { text: "El día más solitario de mi vida", start: 72 , end: 77 },
+  { text: "Y si te vas", start: 77 , end: 80 },
+  { text: "Quiero ir contigo", start: 81 , end: 83 },
+  { text: "Y si te mueres", start: 84 , end: 87 },
+  { text: "Yo quiero morir contigo", start: 87 , end: 90 },
+  { text: "Tomar tu mano e irnos lejos ♡", start: 90 ,  end: 98 },
+  { text: "El día más solitario de mi vida", start: 122 , end: 127 },
+  { text: "El día más solitario de mi vida", start: 128, end: 133 },
+  { text: "El día más solitario de mi vida", start: 134 , end: 146 },
+  { text: "Un día tan solitario", start: 146.5 , end: 150 },
+  { text: "Y es mío", start: 150 , end: 153 ,},
+  { text: "Es un día que me alegro de haber sobrevivido", start: 153 , end: 160 },
 
 ];
 
@@ -35,19 +36,13 @@ var lyricsData = [
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.start && time < line.end
   );
 
   if (currentLine) {
-    // Calcula la opacidad basada en el tiempo en la línea actual
-    var fadeInDuration = 0.1; // Duración del efecto de aparición en segundos
-    var opacity = Math.min(1, (time - currentLine.time) / fadeInDuration);
-
-    // Aplica el efecto de aparición
-    lyrics.style.opacity = opacity;
+    lyrics.style.opacity = 1;
     lyrics.innerHTML = currentLine.text;
   } else {
-    // Restablece la opacidad y el contenido si no hay una línea actual
     lyrics.style.opacity = 0;
     lyrics.innerHTML = "";
   }
