@@ -6,7 +6,7 @@ var lyrics = document.querySelector("#lyrics");
 var lyricsData = [
   { text: "Un día tan solitario", start: 14, end: 17 },
   { text: "Y es mío", start: 17 , end : 20},
-  { text: "El día más solitario de mi vida ", start: 21, end: 26 },
+  { text: "El día más solitario de mi vida ", start: 20, end: 26 },
   { text: "Un día tan solitario", start: 27 , end: 29 },
   { text: "Debería ser prohibido", start: 30 , end: 32 },
   { text: "Es un día que no puedo soportar", start: 33 , end: 39 },
