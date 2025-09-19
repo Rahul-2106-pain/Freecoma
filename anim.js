@@ -33,13 +33,13 @@ var songs = [
   { text: "Ahora que te he encontrado, quédate", start: 118 , end: 120 },
   { text: "Y déjame amarte cariño", start: 120 , end: 123 },
   { text: "Déjame amarte", start: 123 , end: 126 },
-  { text: "Eres demasiado bueno para ser verdad", start: 127, end: 131 },
+  { text: "Eres demasiado buena para ser verdad", start: 127, end: 131 },
   { text: "No puedo quitar mis ojos de ti", start: 131 , end : 135},
   { text: "Serías como el cielo tocar", start: 135, end: 139 },
   { text: "Quiero abrazarte tanto", start: 139 , end: 143 },//
   { text: "Por fin ha llegado el amor a mi vida", start: 143 , end: 147 },
   { text: "Y le agradezco a Dios que estoy vivo", start: 147 , end: 151 },
-  { text: "Eres demasiado bueno para ser verdad", start: 151 , end: 154 },
+  { text: "Eres demasiado buena para ser verdad", start: 151 , end: 154 },
   { text: "No puedo quitar mis ojos de ti", start: 155 , end: 159 },
   { text: "I love u, baby", start: 168 , end: 171 },
   { text: "Y si todo esta bien ", start: 171 , end: 173 },
@@ -47,12 +47,12 @@ var songs = [
   { text: "Para calentar las noches solitarias", start: 175 , end: 177 },
   { text: "I love u baby", start: 177, end: 179 },
   { text: "Confía en mí cuando lo digo", start: 179 , end: 184 },
-  { text: "Oh, pretty baby", start: 184 , end: 187 },//////////
-  { text: "No me derribes tan pronto", start: 187 , end: 189 },
-  { text: "Oh, pretty baby", start: 189 , end: 191 },
-  { text: "Ahora que te he encontrado, quédate", start: 191 , end: 193 },
-  { text: "Oh, pretty baby", start: 193 , end: 195 },
-  { text: "Confía en mí cuando lo digo", start: 195 , end: 199},///////////
+  { text: "Oh, pretty baby", start: 184 , end: 185 },//////////
+  { text: "No me derribes tan pronto", start: 186 , end: 188 },//////
+  { text: "Oh, pretty baby", start: 188 , end: 190 },
+  { text: "Ahora que te he encontrado, quédate", start: 190 , end: 192 },
+  { text: "Oh, pretty baby", start: 192 , end: 195 },
+  { text: "Confía en mí cuando lo digo", start: 195 , end: 199},
   { text: "I need u, baby", start: 199 ,  end: 202 },
   { text: "Bueno, ¿no vendrás conmigo?", start: 202 , end: 204 },
   { text: "Oh, pretty baby", start: 204, end: 206 },
@@ -81,7 +81,7 @@ var songs = [
   { text: "Y si te vas", start: 77 , end: 80 },
   { text: "Quiero ir contigo", start: 81 , end: 83 },
   { text: "Y si te mueres", start: 84 , end: 87 },
-  { text: "Yo quiero morir contigo", start: 87 , end: 90 },
+  { text: "Quiero morir contigo", start: 87 , end: 90 },
   { text: "Tomar tu mano e irnos lejos ♡", start: 90 ,  end: 98 },
   { text: "El día más solitario de mi vida", start: 122 , end: 127 },
   { text: "El día más solitario de mi vida", start: 128, end: 133 },
@@ -110,7 +110,7 @@ var songs = [
   { text: "Así que, bésame una vez", start: 66 , end: 68 },//
   { text: "Bésame dos veces, bésame una vez más", start: 68 , end: 72 },//
   { text: "Ha pasado mucho, mucho tiempo", start: 72 , end: 77 },//
-  { text: " ❤ ", start :73 , end : 115 },
+  { text: " ❤ ", start :80 , end : 115 },
   { text: "Así que, bésame una vez", start: 116 ,  end: 118 },
   { text: "Bésame dos veces, bésame una vez más", start: 118 , end: 122 },
   { text: "Ha pasado mucho, mucho tiempo", start: 122 , end: 127 },
