@@ -5,31 +5,31 @@ var songs = [
   {
     src: "sound/Cant take my eyes off u.mp3",
     lyrics: [
-  { text: "Eres demasiado bueno para ser verdad", start: 15, end: 19 },
+  { text: "Eres demasiado buena para ser verdad", start: 15, end: 19 },
   { text: "No puedo quitar mis ojos de ti", start: 19 , end : 23},
   { text: "Serías como el cielo tocar", start: 23, end: 27 },//
   { text: "Quiero abrazarte tanto", start: 27 , end: 31 },
   { text: "Por fin ha llegado el amor a mi vida", start: 31 , end: 35 },
   { text: "Y le agradezco a Dios que estoy vivo", start: 35 , end: 39 },
-  { text: "Eres demasiado bueno para ser verdad", start: 39 , end: 43 },//primero
+  { text: "Eres demasiado buena para ser verdad", start: 39 , end: 43 },//primero
   { text: "No puedo quitar mis ojos de ti", start: 43 , end: 46 },
   { text: "Perdón por la forma en que te miro", start: 47, end: 51 },
   { text: "No hay nada más para comparar", start: 51 , end: 55 },
-  { text: "Mirarte, me deja débil", start: 55 , end: 59 },
+  { text: "Mirarte , me deja débil", start: 55 , end: 59 },
   { text: "No quedan palabras para hablar", start: 59 , end: 63 },
   { text: "Pero si te sientes como yo me siento", start: 63 , end: 66 },
-  { text: "Por favor, hazme saber que es real", start: 67 , end: 70 },
-  { text: "Eres demasiado bueno para ser verdad", start: 70 , end: 74 },
+  { text: "Por favor , hazme saber que es real", start: 67 , end: 70 },
+  { text: "Eres demasiado buena para ser verdad", start: 70 , end: 74 },
   { text: "No puedo quitar mis ojos de ti", start: 74 , end: 78 },
-  { text: "I love u, baby", start: 96 , end: 98 },
+  { text: "I love u , baby", start: 96 , end: 98 },
   { text: "Y si todo esta bien ", start: 98 , end: 100 },
-  { text: "I need u, baby", start: 100 ,  end: 102 },
+  { text: "I need u , baby", start: 100 ,  end: 102 },
   { text: "Para calentar las noches solitarias", start: 102 , end: 104 },
-  { text: "I love u, baby", start: 104, end: 107 },//
+  { text: "I love u , baby", start: 104, end: 107 },//
   { text: "Confía en mí cuando lo digo", start: 107 , end: 111 },
-  { text: "Oh, pretty baby", start: 111 , end: 114 },
+  { text: "Oh , pretty baby", start: 111 , end: 114 },
   { text: "No me derribes tan pronto", start: 114 , end: 116 ,},
-  { text: "Oh, pretty baby", start: 116 , end: 118 },
+  { text: "Oh , pretty baby", start: 116 , end: 118 },
   { text: "Ahora que te he encontrado, quédate", start: 118 , end: 120 },
   { text: "Y déjame amarte cariño", start: 120 , end: 123 },
   { text: "Déjame amarte", start: 123 , end: 126 },
@@ -41,22 +41,22 @@ var songs = [
   { text: "Y le agradezco a Dios que estoy vivo", start: 147 , end: 151 },
   { text: "Eres demasiado buena para ser verdad", start: 151 , end: 154 },
   { text: "No puedo quitar mis ojos de ti", start: 155 , end: 159 },
-  { text: "I love u, baby", start: 168 , end: 171 },
+  { text: "I love u , baby", start: 168 , end: 171 },
   { text: "Y si todo esta bien ", start: 171 , end: 173 },
   { text: "I need u baby", start: 173 ,  end: 175 },
   { text: "Para calentar las noches solitarias", start: 175 , end: 177 },
   { text: "I love u baby", start: 177, end: 179 },
   { text: "Confía en mí cuando lo digo", start: 179 , end: 184 },
-  { text: "Oh, pretty baby", start: 184 , end: 185 },//////////
+  { text: "Oh , pretty baby", start: 184 , end: 185 },//////////
   { text: "No me derribes tan pronto", start: 186 , end: 188 },//////
-  { text: "Oh, pretty baby", start: 188 , end: 190 },
-  { text: "Ahora que te he encontrado, quédate", start: 190 , end: 192 },
-  { text: "Oh, pretty baby", start: 192 , end: 195 },
+  { text: "Oh , pretty baby", start: 188 , end: 190 },
+  { text: "Ahora que te he encontrado , quédate", start: 190 , end: 192 },
+  { text: "Oh , pretty baby", start: 192 , end: 195 },
   { text: "Confía en mí cuando lo digo", start: 195 , end: 199},
-  { text: "I need u, baby", start: 199 ,  end: 202 },
-  { text: "Bueno, ¿no vendrás conmigo?", start: 202 , end: 204 },
-  { text: "Oh, pretty baby", start: 204, end: 206 },
-  { text: "Ahora que te he encontrado, quédate", start: 206 , end: 208 },
+  { text: "I need u , baby", start: 199 ,  end: 202 },
+  { text: "Bueno , ¿no vendrás conmigo?", start: 202 , end: 204 },
+  { text: "Oh , pretty baby", start: 204, end: 206 },
+  { text: "Ahora que te he encontrado , quédate", start: 206 , end: 208 },
   { text: "Y déjame amarte cariño", start: 208 , end: 212 },
   { text: "Déjame amarte", start: 212 , end: 218 ,}
     ]
@@ -100,21 +100,21 @@ var songs = [
   { text: "Pero las palabras pueden esperar hasta otro día", start: 18 , end: 26 },
   { text: "Bésame una vez , bésame dos veces ", start: 30 , end: 33 },
   { text: "Bésame una vez más", start: 33 , end: 35 },
-  { text: "Ha pasado mucho, mucho tiempo", start: 35 , end: 41 },//primero revisar
-  { text: "No me he sentido así, querida", start: 42, end: 45 },
+  { text: "Ha pasado mucho , mucho tiempo", start: 35 , end: 41 },//primero revisar
+  { text: "No me he sentido así , querida", start: 42, end: 45 },
   { text: "Como no recuerdo cuando", start: 45 , end: 48 },
-  { text: "Ha pasado mucho, mucho tiempo", start: 48 , end: 53 },
+  { text: "Ha pasado mucho , mucho tiempo", start: 48 , end: 53 },
   { text: "Nunca sabrás", start: 54 , end: 55 },
   { text: "Cuantos sueños he soñado contigo", start: 55 , end: 59 },
   { text: "O lo vacío que parecía todo sin ti", start: 60 , end: 66 },
-  { text: "Así que, bésame una vez", start: 66 , end: 68 },//
-  { text: "Bésame dos veces, bésame una vez más", start: 68 , end: 72 },//
-  { text: "Ha pasado mucho, mucho tiempo", start: 72 , end: 77 },//
+  { text: "Así que , bésame una vez", start: 66 , end: 68 },//
+  { text: "Bésame dos veces , bésame una vez más", start: 68 , end: 72 },//
+  { text: "Ha pasado mucho , mucho tiempo", start: 72 , end: 77 },//
   { text: " ❤ ", start :80 , end : 115 },
-  { text: "Así que, bésame una vez", start: 116 ,  end: 118 },
-  { text: "Bésame dos veces, bésame una vez más", start: 118 , end: 122 },
-  { text: "Ha pasado mucho, mucho tiempo", start: 122 , end: 127 },
-  { text: "Ha pasado mucho, mucho tiempo", start: 128 , end: 135 },
+  { text: "Así que , bésame una vez", start: 116 ,  end: 118 },
+  { text: "Bésame dos veces , bésame una vez más", start: 118 , end: 122 },
+  { text: "Ha pasado mucho , mucho tiempo", start: 122 , end: 127 },
+  { text: "Ha pasado mucho , mucho tiempo", start: 128 , end: 135 },
     ]
   }
 ];
